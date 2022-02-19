@@ -30,19 +30,15 @@ header ul{
 
 .dark{
   padding: 15px;
-  background: #145da0;
+  background: #A997C4;
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-
-
-
-
 /* Header **/
 header{
-  background: #145da0;
+  background: #A997C4;
   color: #b1d4e0;
   padding-top: 30px;
   min-height: 70px;
@@ -175,7 +171,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 /* Sidebar */
 aside#sidebar{
   float: right;
@@ -211,4 +206,21 @@ footer{
   color: #ffffff;
   background-color: #2e8bc0;
   text-align: center;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 1px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
